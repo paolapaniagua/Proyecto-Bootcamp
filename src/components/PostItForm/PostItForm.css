@@ -1,0 +1,57 @@
+.form {
+    display:flex;
+    padding: 20px;
+}
+
+.workspace {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.espacioForm {
+    width: 30%;
+    border: 1px solid black;
+    
+}
+
+.creador {
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgb(136, 22, 22);
+    background-color:#222222;;
+    color: white;
+    padding: 20px;
+    border: none;
+    background: none;
+}
+
+.cajanotitas {
+    width: 60%;
+    padding: 10px;
+    background-color:#313131;
+    text-align: left;
+    left: -50px;
+}
+
+.notita {
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.5em;
+
+}
+
+.boton {
+    margin-top: 20px;
+    padding: 10px;
+    background-color:1px solid rgb(136, 22, 22);;
+    color:white;
+}
+
+.alertaError {
+    margin-left: 120px;
+    color: red;
+}

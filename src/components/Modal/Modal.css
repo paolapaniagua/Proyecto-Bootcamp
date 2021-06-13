@@ -1,0 +1,32 @@
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 16px;
+    animation: fadeIn 195ms forwards;
+}
+
+.modal-content{
+    background-color: rgb(45, 38, 145);
+    width: 25em;
+    border-radius: 00.5em;
+}
+
+@keyframes fadeIn {
+    100% { opacity: 1; }    
+    0%   { opacity: 0; }
+  }
+
+.buttonx {
+    border-radius: 0.5em;
+    align-content: right;
+    float: right;
+    width: 15%;
+    font-size: 1em;
+}

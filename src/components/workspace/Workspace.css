@@ -1,0 +1,28 @@
+button{
+    background: #b62234;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 15em;
+}
+
+.espacioForm{
+    background: #313131;
+    width: 70%;
+    border-radius: 0.5em;
+}
+#workspacea{
+    width: 80%;
+    padding: 0.5em;
+}
+.workspace{
+    background: #313131;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    border-radius: 0.5em;
+    width: 70%;
+}
+
+.button-postit{
+    padding-bottom: 1em;
+}
